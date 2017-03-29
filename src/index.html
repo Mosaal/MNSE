@@ -6,28 +6,45 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Load corresponding and Navbar CSS files -->
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/navbar.css">
-
 	<!-- Set page title -->
 	<title>Home</title>
+
+	<!-- Load CSS files -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link href="css/navbar.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<!-- Navbar -->
-	<nav id="navbar">
-		<ul id="links-list">
-			<li><a href="html/characters.html">Characters</a></li>
-			<li><a href="html/items.html">Items</a></li>
-			<li><a href="html/locations.html">Locations</a></li>
-			<li><a href="html/races.html">Races</a></li>
-		</ul>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">The Legend of Zelda: Compendium</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="html/characters.html">Characters</a></li>
+				<li><a href="html/items.html">Items</a></li>
+				<li><a href="html/locations.html">Locations</a></li>
+				<li><a href="html/races.html">Races</a></li>
+				<li><a href="html/timeline.html">Timeline</a></li>
+				<li><a href="html/games.html">Games</a></li>
+				<li><a href="html/quiz.html">Quiz</a></li>
+				<li><a href="html/team.html">Team</a></li>
+			</ul>
+		</div>
 	</nav>
 
 	<!-- Page content -->
-	
 
-	<!-- Load corresponding JS file -->
+	<!-- Load JS files -->
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

@@ -1,3 +1,29 @@
+@font-face {
+    font-family: zelda;
+    src: url(../fonts/Triforce.ttf);
+}
+
 body {
-  background-image: url("../resources/zelda.jpg");
+  background-image: url("../resources/images/zelda.jpg");
+  background-repeat: no-repeat;
+}
+
+#title {
+  margin: auto;
+  text-align: center;
+}
+
+#title > img {
+  width: 50rem;
+}
+
+#title > div {
+  position: relative;
+  top: -6rem;
+  left: 13rem;
+  font-family: zelda;
+  font-size: 10rem;
+  color: gold;
+  text-shadow: 0.3rem 0.3rem 0.25rem brown;
+  word-spacing: -3rem;
 }

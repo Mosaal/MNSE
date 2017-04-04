@@ -4,12 +4,12 @@
 }
 
 body {
-  background-image: url("../resources/images/zelda.jpg");
-  background-repeat: no-repeat;
+  background: url("../resources/images/zelda.jpg") no-repeat center fixed;
+  background-size: cover;
 }
 
 #title {
-  margin: auto;
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -18,10 +18,15 @@ body {
 }
 
 #title > div {
+  width: 50%;
+  margin: auto;
+}
+
+#title > div > div {
   position: relative;
+  font-family: zelda;
   top: -6rem;
   left: 13rem;
-  font-family: zelda;
   font-size: 10rem;
   color: gold;
   text-shadow: 0.3rem 0.3rem 0.25rem brown;

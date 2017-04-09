@@ -8,15 +8,3 @@ body {
 	background: url("../res/img/zelda.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
-
-/* Well's CSS */
-.well {
-	border: 1px solid gold;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.well span, .well h1 {
-	color: gold;
-	font-family: zelda;
-	text-shadow: 0.3rem 0.3rem 0.25rem brown;
-}

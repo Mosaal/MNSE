@@ -7,16 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Set page title -->
-	<title>TLoZ: Compendium</title>
+	<title>The Legend of Zelda: Compendium</title>
 
 	<!-- Load CSS files -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/navbar.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
-
-	<!-- Load JS files -->
-	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,15 +20,34 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-
 <body>
-	<!-- Page content -->
+	<!-- Title -->
 	<div id="title">
-		<img src="resources/images/logo.png" alt="Zelda Title">
+		<img src="res/img/logo.png" alt="Zelda Title">
 		<div class="title-container">
 			<div> C o m p e n d i u m </div>
 		</div>
 	</div>
 
+	<!-- Navigation -->
+	<nav id="nav">
+		<ul class="nav-list">
+			<li class="nav-item"><a href="html/characters.html">C h a r a c t e r s</a></li>
+			<li class="nav-item"><a href="html/items.html">I t e m s</a></li>
+			<li class="nav-item"><a href="html/locations.html">L o c a t i o n s</a></li>
+			<li class="nav-item"><a href="html/races.html">R a c e s</a></li>
+		</ul>
+		<ul class="nav-list">
+			<li class="nav-item"><a href="html/timeline.html">T i m e l i n e</a></li>
+			<li class="nav-item"><a href="html/games.html">G a m e s</a></li>
+			<li class="nav-item"><a href="html/quiz.html">Q u i z</a></li>
+			<li class="nav-item"><a href="html/team.html">T e a m</a></li>
+		</ul>
+	</nav>
+
+	<!-- Load JS files -->
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

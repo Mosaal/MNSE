@@ -1,20 +1,18 @@
 $(document).ready(function() {
 	// Detect button click
 	$('input[type="submit"]').click(function() {
-		var i = 0;
+		// Reset selections
+		$('.well .radio').each(function() { $(this).css('background-color', 'rgba(0, 0, 0, 0)'); });
 
-		// Check if all answers have been selected
-		$('.well input[type="radio"]').each(function() {
-			if($(this).is(':checked'))
-				i++;
+		// Check how many answers are correct
+		$('.well input[type="radio"]:checked').each(function() {
+			if($(this).attr('class') === 'correct') {
+				var radioClass = $(this).parent().parent();
+				radioClass.css('background-color', 'rgba(0, 255, 0, 0.5)');
+			} else {
+				var radioClass = $(this).parent().parent();
+				radioClass.css('background-color', 'rgba(255, 0, 0, 0.5)');
+			}
 		});
-
-		// Check if at least one radio button, per question, is selected
-		if (i != $('.well').length) {
-			// Inform user that all answers must be selected
-		} else {
-			// Check if answers are correct
-			
-		}
 	});
 });

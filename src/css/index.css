@@ -8,8 +8,8 @@ body {
     background-size: cover;
 }
 
-* {
-	cursor: url("../res/img/navi-cursor.png"), auto;
+body, html {
+    cursor: url("../res/img/navi-cursor.png"), auto;
 }
 
 /* Title's CSS */

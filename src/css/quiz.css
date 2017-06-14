@@ -1,6 +1,6 @@
 @font-face {
 	font-family: zelda;
-	src: url(../fonts/Triforce.ttf);
+	src: url(../res/fonts/Triforce.ttf);
 }
 
 body {
@@ -37,7 +37,7 @@ h2 {
 .well label {
 	color: white;
 	font-size: 2.5rem;
-	font-family: zelda;
+	font-family: cursive;
 }
 
 .well .radio:last-child { margin-bottom: 0; }

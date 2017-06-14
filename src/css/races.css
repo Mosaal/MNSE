@@ -50,6 +50,7 @@ body, html {
 }
 
 .text {
+  font-size: 2rem;
 	position: relative;
 	color: white;
 	font-family: cursive;
@@ -73,56 +74,37 @@ body, html {
 	font-size: 3rem;
 }
 
-#zelda-tp {
-	top: -5rem;
-	left: 0rem;
-	width: 20rem;
+#hylian {
+  top: 0;
+  left: 5%;
+  width: 30rem;
 }
 
-#zelda-ww {
-	left: 9rem;
-	top: 10rem;
-	width: 20rem;
+#koroks {
+  top: 5rem;
+  width: 40rem;
 }
 
-#zelda-ss {
-	left: -7rem;
-	top: 10rem;
-	width: 20rem;
+#goron {
+  left: 0;
+  top: 0;
+  width: 30rem;
 }
 
-#link-oot {
-	top: -5rem;
-	left: 0rem;
-	width: 40rem;
+#zora {
+  right: 0;
+  top: 0;
+  width: 30rem;
 }
 
-#link-ss {
-	left: 20rem;
-	top: 13rem;
-	width: 30rem;
+#rito {
+  left: 0;
+  top: 0;
+  width: 25rem;
 }
 
-#link-mc {
-	left: 0rem;
-	top: 15rem;
-	width: 30rem;
-}
-
-#ganon-oot {
-	top: -3rem;
-	left: -5rem;
-	width: 40rem;
-}
-
-#ganon-ww {
-	left: -8rem;
-	top: 13rem;
-	width: 30rem;
-}
-
-#ganon-tp {
-	left: 12rem;
-	top: 10rem;
-	width: 25rem;
+#gerudo {
+  right: 0;
+  top: -5rem;
+  width: 20rem;
 }

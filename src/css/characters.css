@@ -52,7 +52,8 @@ body, html {
 .text {
 	position: relative;
 	color: white;
-	font-family: sans-serif;
+	font-family: cursive;
+	text-shadow: 0.3rem 0.3rem 0.25rem grey;
 }
 
 .right {

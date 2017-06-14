@@ -1,0 +1,113 @@
+@font-face {
+	font-family: zelda;
+	src: url(../fonts/Triforce.ttf);
+}
+
+body {
+	background: url("../res/img/zelda.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+body, html {
+	cursor: url("../res/img/navi-cursor.png"), auto;
+}
+
+#map {
+  text-align: center;
+  position: relative;
+  margin: 5rem;
+  font-family: cursive;
+  text-shadow: 0.3rem 0.3rem 0.25rem grey;
+  color: black;
+  font-size: 3rem;
+}
+
+#map-text {
+  margin: 2rem;
+}
+
+#map-image {
+  position: relative;
+  width: 80%;
+	border-radius: 1rem;
+	border: solid 1px gold;
+}
+
+#map::first-letter {
+	font-family: zelda;
+	font-size: 4rem;
+}
+
+.main {
+	margin-left: 30rem;
+	margin-right: 30rem;
+}
+
+.title {
+	margin-bottom: 5rem;
+	font-size: 10rem;
+	font-family: zelda;
+	color: red;
+	text-shadow: 0.3rem 0.3rem 0.25rem brown;
+}
+
+#locations {
+  margin-bottom: 0rem;
+}
+
+.outer {
+  margin: 5rem;
+}
+
+.content {
+	padding-right: 5rem;
+	padding-left: 5rem;
+	padding-bottom: 5rem;
+	background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 0.5rem;
+	border: solid 1px gold;
+}
+
+.main-character {
+
+}
+
+.name {
+	font-size: 6rem;
+	text-shadow: 0.3rem 0.3rem 0.25rem brown;
+	color: gold;
+	font-family: zelda;
+}
+
+.subtitle {
+	font-size: 3rem;
+	color: gold;
+	font-family: zelda;
+	text-shadow: 0.3rem 0.3rem 0.25rem brown;
+}
+
+.text {
+  font-size: 2rem;
+	position: relative;
+	color: white;
+	font-family: cursive;
+	text-shadow: 0.3rem 0.3rem 0.25rem grey;
+}
+
+.image-holder {
+  text-align: center;
+}
+
+.image {
+  width: 60%;
+  border-radius: 0.5rem;
+}
+
+.text::first-letter {
+	font-family: zelda;
+	font-size: 3rem;
+}
+
+#hyrule-castle {
+
+}

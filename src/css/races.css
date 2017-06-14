@@ -1,0 +1,128 @@
+@font-face {
+	font-family: zelda;
+	src: url(../fonts/Triforce.ttf);
+}
+
+body {
+	background: url("../res/img/zelda.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+body, html {
+	cursor: url("../res/img/navi-cursor.png"), auto;
+}
+
+.main {
+	margin-left: 30rem;
+	margin-right: 30rem;
+}
+
+.title {
+	margin-bottom: 5rem;
+	font-size: 10rem;
+	font-family: zelda;
+	color: red;
+	text-shadow: 0.3rem 0.3rem 0.25rem brown;
+}
+
+.main-character {
+	margin-bottom: 5rem;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	padding-bottom: 5rem;
+	background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 0.5rem;
+	border: solid 1px gold;
+}
+
+.name {
+	font-size: 10rem;
+	text-shadow: 0.3rem 0.3rem 0.25rem brown;
+	color: gold;
+	font-family: zelda;
+}
+
+.subtitle {
+	font-size: 3rem;
+	color: gold;
+	font-family: zelda;
+	text-shadow: 0.3rem 0.3rem 0.25rem brown;
+}
+
+.text {
+	position: relative;
+	color: white;
+	font-family: cursive;
+	text-shadow: 0.3rem 0.3rem 0.25rem grey;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.image {
+	position: absolute;
+}
+
+.text::first-letter {
+	font-family: zelda;
+	font-size: 3rem;
+}
+
+#zelda-tp {
+	top: -5rem;
+	left: 0rem;
+	width: 20rem;
+}
+
+#zelda-ww {
+	left: 9rem;
+	top: 10rem;
+	width: 20rem;
+}
+
+#zelda-ss {
+	left: -7rem;
+	top: 10rem;
+	width: 20rem;
+}
+
+#link-oot {
+	top: -5rem;
+	left: 0rem;
+	width: 40rem;
+}
+
+#link-ss {
+	left: 20rem;
+	top: 13rem;
+	width: 30rem;
+}
+
+#link-mc {
+	left: 0rem;
+	top: 15rem;
+	width: 30rem;
+}
+
+#ganon-oot {
+	top: -3rem;
+	left: -5rem;
+	width: 40rem;
+}
+
+#ganon-ww {
+	left: -8rem;
+	top: 13rem;
+	width: 30rem;
+}
+
+#ganon-tp {
+	left: 12rem;
+	top: 10rem;
+	width: 25rem;
+}

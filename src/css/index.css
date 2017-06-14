@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+body, html {
+    cursor: url("../res/img/navi-cursor.png"), auto;
+}
+
 /* Title's CSS */
 #title {
     opacity: 0;

@@ -4,6 +4,7 @@
 }
 
 body {
+	padding-top: 5rem;
 	background: url("../res/img/zelda.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
@@ -19,7 +20,7 @@ body, html {
 
 .title {
 	margin-bottom: 5rem;
-	font-size: 10rem;
+	font-size: 7rem;
 	font-family: zelda;
 	color: red;
 	text-shadow: 0.3rem 0.3rem 0.25rem brown;
@@ -27,9 +28,7 @@ body, html {
 
 .main-character {
 	margin-bottom: 5rem;
-	padding-right: 5rem;
-	padding-left: 5rem;
-	padding-bottom: 5rem;
+	padding: 2rem;
 	background-color: rgba(0, 0, 0, 0.25);
 	border-radius: 0.5rem;
 	border: solid 1px gold;
@@ -55,73 +54,36 @@ body, html {
 	font-family: sans-serif;
 }
 
-.right {
-	text-align: right;
-}
-
 .left {
-	text-align: left;
+	text-align: right;
 }
 
 .image {
 	position: absolute;
 }
 
-.text::first-letter {
+.first-letter {
 	font-family: zelda;
-	font-size: 3rem;
+	font-size: 4rem;
+	position: absolute;
+	top: -3rem;
+	left: 0rem;
 }
 
 #zelda-tp {
 	top: -5rem;
-	left: 0rem;
+	left: 5rem;
 	width: 20rem;
 }
 
 #zelda-ww {
-	left: 9rem;
+	left: 15rem;
 	top: 10rem;
 	width: 20rem;
 }
 
 #zelda-ss {
-	left: -7rem;
+	left: -2rem;
 	top: 10rem;
 	width: 20rem;
-}
-
-#link-oot {
-	top: -5rem;
-	left: 0rem;
-	width: 40rem;
-}
-
-#link-ss {
-	left: 20rem;
-	top: 13rem;
-	width: 30rem;
-}
-
-#link-mc {
-	left: 0rem;
-	top: 15rem;
-	width: 30rem;
-}
-
-#ganon-oot {
-	top: -3rem;
-	left: -5rem;
-	width: 40rem;
-}
-
-#ganon-ww {
-	left: -8rem;
-	top: 13rem;
-	width: 30rem;
-}
-
-#ganon-tp {
-	left: 12rem;
-	top: 10rem;
-	width: 25rem;
 }

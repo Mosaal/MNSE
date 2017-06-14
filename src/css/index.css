@@ -54,18 +54,22 @@ body {
     font-size: 2.5rem;
     font-family: zelda;
     text-align: center;
+    border-radius: 5rem;
 }
 
 #nav > ul > li:hover {
     cursor: pointer;
-    border-radius: 5rem;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 #nav > ul > li > a {
     color: gold;
+    padding: 2rem 6rem;
     word-spacing: -0.5rem;
     text-shadow: 0.3rem 0.3rem 0.25rem brown;
 }
 
-#nav > ul > li > a:hover { text-decoration: none; }
+#nav > ul > li > a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
